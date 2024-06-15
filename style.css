@@ -1,0 +1,85 @@
+@charset "UTF-8";
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    padding: 2px;
+}
+img#aviao {
+    width:80px;
+    height: 80px; 
+    margin: -11px 4px -31px -1px;
+    }
+header, h1 {
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(205, 224, 241);
+    border-radius: 10px 0px;
+    color: rgb(24, 87, 40);
+}
+a#nav{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: bolder;
+    padding: 10px;
+    color: rgb(45, 124, 69);
+    text-decoration: none; 
+}
+a#nav:hover{
+    background-color: rgb(4, 19, 32);
+    color: rgb(255, 255, 255);
+}
+#portugal{
+    color: rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 8px 0px;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+}
+#portugal:hover{
+    background-color: rgb(250, 99, 99);
+    color: rgb(0, 0, 0);
+}
+div#torre >h2{
+    padding: 11px;
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+}
+div#torre{
+    background-image: url(imagens/belem-tower-2809818_1920.jpg);
+    width:100%px;
+    height: 400px;
+    background-position: top center;
+    background-attachment: fixed;
+}
+p{
+    color: rgb(63, 97, 117);
+    text-align: justify;
+    padding: 10px 0px ;
+}
+h3{
+    font-size: 1.3em;
+    padding: 2px;
+}
+a#link {
+    color: rgb(78, 119, 145);
+    padding: 0px 0px;
+    border-radius: 5px 0px ;
+}
+a#link:hover{
+    background-color: rgb(131, 170, 170);
+}
+ footer{
+    height: 100%;
+    background-color: rgb(114, 114, 139);
+ }
+#rodape{
+    color: white ;
+    text-align: center;
+}
+h5{
+    color: white ;
+    text-align: center;   
+}
