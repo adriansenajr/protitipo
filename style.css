@@ -26,21 +26,21 @@ a#nav{
     color: rgb(45, 124, 69);
     text-decoration: none; 
 }
-a#nav:hover{
+a:hover{
     background-color: rgb(4, 19, 32);
     color: rgb(255, 255, 255);
 }
 #portugal{
     color: rgb(255, 255, 255);
-    background-color: red;
+    background-color: rgb(94, 145, 175);
     border-radius: 8px 0px;
     width: 100px;
     height: 20px;
     text-align: center;
 }
 #portugal:hover{
-    background-color: rgb(250, 99, 99);
-    color: rgb(0, 0, 0);
+    background-color: rgb(70, 88, 114);
+    color: rgb(255, 255, 255);
 }
 div#torre >h2{
     padding: 11px;
