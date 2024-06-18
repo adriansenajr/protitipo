@@ -1,8 +1,8 @@
 @charset "UTF-8";
 * {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 5px;
-    padding: 2px;
+    margin: 0px;
+    padding: 5px;
 }
 img#aviao {
     width:80px;
@@ -48,7 +48,7 @@ div#torre >h2{
 }
 div#torre{
     background-image: url(imagens/belem-tower-2809818_1920.jpg);
-    width:100%;
+    width:99%;
     height: 400px;
     background-position: top center;
     background-attachment: fixed;
@@ -82,4 +82,19 @@ a#link:hover{
 h5{
     color: white ;
     text-align: center;   
+}
+img{
+    100%
+}
+main {
+    background-color:white;
+    padding: 16px;
+    min-width: 80px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 10px;
+}
+iframe.mapa{
+    margin: 10px;
 }
